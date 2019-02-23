@@ -1,0 +1,124 @@
+package com.isometrix.testscript;
+
+import org.testng.annotations.Factory;
+import org.testng.annotations.Test;
+
+import com.isometrix.dataproviders.DataProviders;
+import com.isometrix.pages.AllControlPage;
+import com.isometrix.pages.ControlsTabPage;
+import com.isometrix.pages.HomePage;
+import com.isometrix.pages.MHDSTabPage;
+import com.isometrix.pages.UserDefinedTabPage;
+import com.isometrix.selenium.framework.BaseTest;
+
+public class UsersTabScript extends BaseTest {
+
+ @Factory(dataProvider = "Config", dataProviderClass = DataProviders.class)
+ public UsersTabScript(String browser) {
+  super(browser);
+
+ }
+/*AM_037
+ "1. Launch the browser and visit the url.
+ 2. Enter the valid credential.
+ 3. Click on SIGN IN button.
+ 4. Click on All Controls button.
+ 5. Click on Add button right side of the screen.
+ 6. Click on MHDS tab.
+ 7. Verify MHDS tab."
+*/ 
+ @Test
+ public void testVerifyRedirectedToMHDSTabScreen() throws Exception {
+
+  reportLog("login using a valid IsoMetrix username and password.");
+  HomePage homePage = loginPage.login("username", "password");
+
+  reportLog("Go to All Control page");
+  AllControlPage allControlPage = homePage.navigateToControlPage();
+
+  reportLog("Verify All Control page");
+  allControlPage.verifyAllControlPage();
+
+  reportLog("Click on Add button on right side of Control page");
+  allControlPage.ClickOnAddButton();
+
+  reportLog("Click on MHDS tab");
+  MHDSTabPage mHDSTabPage = allControlPage.navigateToMHDSTab();
+  
+  reportLog("Verify MHDS tab is selected on MHDS page");
+  mHDSTabPage.verifyMHDSTabPage();
+
+ }
+ 
+ /* AM_038
+ "1. Launch the browser and visit the url.
+ 2. Enter the valid credential.
+ 3. Click on SIGN IN button.
+ 4. Click on All Controls button.
+ 5. Click on Add button right side of the screen.
+ 6. Click on MHDS tab.
+ 7. Leave all field blank in previous tab.
+ 8. Click on Save button."
+*/
+
+ @Test
+ public void testVerifyWithoutFillingPreviousTabFieldsErrorMessageOfControlFieldsOnMHDS() throws Exception {
+
+  reportLog("login using a valid IsoMetrix username and password.");
+  HomePage homePage = loginPage.login("username", "password");
+
+  reportLog("Go to All Control page");
+  AllControlPage allControlPage = homePage.navigateToControlPage();
+
+  reportLog("Click on Add button on right side of Control page");
+  allControlPage.ClickOnAddButton();
+
+  reportLog("Click on MHDS tab");
+  allControlPage.navigateToMHDSTab();
+  
+  reportLog("Click on Save button on right the side");
+  allControlPage.clickOnSaveButton();
+  
+  reportLog("Verify All Control page");
+  allControlPage.verifyAllControlPage();
+
+ }
+
+ 
+/* AM_039
+ * "1. Launch the browser and visit the url.
+ 2. Enter the valid credential.
+ 3. Click on SIGN IN button.
+ 4. Click on All Controls button.
+ 5. Click on Add button right side of the screen.
+ 6. Click on MHDS tab.
+ 7. Filled all fields of Control tab and leave all field blank in User Defined tab field.
+ 8. Click on Save button."
+*/ 
+ 
+ @Test
+ public void testVerifyAfterFillingControlTabFieldsUserDefinedPopUpMessagesWithMHDSTab() throws Exception {
+
+  reportLog("login using a valid IsoMetrix username and password.");
+  HomePage homePage = loginPage.login("username", "password");
+
+  reportLog("Go to All Control page");
+  AllControlPage allControlPage = homePage.navigateToControlPage();
+
+  reportLog("Click on Add button on right side of Control page");
+  ControlsTabPage controlsTabPage=allControlPage.ClickOnAddButton();
+  
+  reportLog("Enter the all mandatory fileds on Control tab");
+  controlsTabPage.enterAllMandatoryField();
+
+  reportLog("Click on MHDS tab");
+  allControlPage.navigateToMHDSTab();
+  
+  reportLog("Click on Save button on right side of Control page");
+  UserDefinedTabPage userDefinedTabPage=allControlPage.clickOnSaveButton();
+  
+  reportLog("Verify save the record and navigated to User Defined tab");
+  userDefinedTabPage.verifyUserDefinedTab();
+
+ }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="com.isometrix.report.CustomReport"/>
+  </listeners>
+  <test name="ISOMetrixTestCase(failed)">
+    <classes>
+      <class name="com.isometrix.testscript.ControlsTabScript">
+        <methods>
+          <include name="testRedirectToUserDefinedTab"/>
+          <include name="testVerifyAllMandatoryFields"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.isometrix.testscript.ControlsTabScript -->
+      <class name="com.isometrix.testscript.MDSTabScript">
+        <methods>
+          <include name="testVerifySubmitSuccessfullyAfterFillingMDSTabFields"/>
+        </methods>
+      </class> <!-- com.isometrix.testscript.MDSTabScript -->
+      <class name="com.isometrix.testscript.MHDSTabScript">
+        <methods>
+          <include name="testVerifySubmitSuccessfullyWithoutFillingMHDSTabFields"/>
+          <include name="testVerifySubmitSuccessfullyAfterFillingMHDSTabFields"/>
+        </methods>
+      </class> <!-- com.isometrix.testscript.MHDSTabScript -->
+      <class name="com.isometrix.testscript.AllControlScript">
+        <methods>
+          <include name="testRedirectAllControlScreen"/>
+          <include name="testRedirectedToAddPhaseScreen"/>
+          <include name="testAbleToClickAddButton"/>
+        </methods>
+      </class> <!-- com.isometrix.testscript.AllControlScript -->
+      <class name="com.isometrix.testscript.LoginScript">
+        <methods>
+          <include name="testLoginWithInValidPassword"/>
+          <include name="testLoginWithInValidUserName"/>
+          <include name="testValidLogin"/>
+          <include name="testLoginWithBlank"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.isometrix.testscript.LoginScript -->
+      <class name="com.isometrix.testscript.UserDefinedTabScript">
+        <methods>
+          <include name="testFillAllFieldsControlsTabAndUserDefinedTab"/>
+        </methods>
+      </class> <!-- com.isometrix.testscript.UserDefinedTabScript -->
+    </classes>
+  </test> <!-- ISOMetrixTestCase(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

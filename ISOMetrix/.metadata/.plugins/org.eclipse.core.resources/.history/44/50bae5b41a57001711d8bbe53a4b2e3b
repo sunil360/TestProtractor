@@ -1,0 +1,134 @@
+package com.isometrix.testscript;
+
+import org.testng.annotations.Factory;
+import org.testng.annotations.Test;
+
+import com.isometrix.dataproviders.DataProviders;
+import com.isometrix.pages.AllControlPage;
+import com.isometrix.pages.ControlsTabPage;
+import com.isometrix.pages.HomePage;
+import com.isometrix.pages.UserDefinedTabPage;
+import com.isometrix.selenium.framework.BaseTest;
+
+public class UserDefinedTabScript extends BaseTest {
+
+	@Factory(dataProvider = "Config", dataProviderClass = DataProviders.class)
+	public UserDefinedTabScript(String browser) {
+		super(browser);
+
+	}
+
+	/*
+	 * AM_017 1. Launch the browser and visit the url. 2. Enter the valid
+	 * credential. 3. Click on SIGN IN button. 4. Click on All Controls button.
+	 * 5. Click on Add button right side of the screen. 6. Click on User Defined
+	 * tab. 7. Fill all mandatory fields in User Defined section. 8. Click on
+	 * Save button.
+	 */
+	// @Test
+	public void testVerifyAllMandatoryFieldsValidationMessageUserDefinedTab() throws Exception {
+
+		reportLog("login using a valid IsoMetrix username and password.");
+		HomePage homePage = loginPage.login("username", "password");
+
+		reportLog("Go to All Control page");
+		AllControlPage allControlPage = homePage.navigateToControlPage();
+
+		reportLog("Verify All Control page");
+		allControlPage.verifyAllControlPage();
+
+		reportLog("Click on Add button on right side of Control page");
+		ControlsTabPage controlsTabPage = allControlPage.ClickOnAddButton();
+
+		reportLog("Verify Control tab is selected on Control page");
+		controlsTabPage.verifyControlsTab();
+
+		reportLog("Enter the all mandatory fileds on Control");
+		controlsTabPage.enterAllMandatoryField();
+
+		reportLog("Click on Save button on right side of Control page");
+		UserDefinedTabPage userDefinedTabPage = controlsTabPage.clickOnSaveButton();
+
+		reportLog("Verify save the record and navigated to User Defined tab");
+		userDefinedTabPage.verifyUserDefinedTab();
+
+		reportLog("Enter the all mandatory fileds on User defined tab");
+		userDefinedTabPage.verifyAllMandatoryFieldOnUserDefinedTab();
+
+	}
+
+	/*
+	 * AM_018 1. Launch the browser and visit the url. 2. Enter the valid
+	 * credential. 3. Click on SIGN IN button. 4. Click on All Controls button.
+	 * 5. Click on Add button right side of the screen. 6. Click on User Defined
+	 * tab. 7. Leave User define DDL1 blank. 8. Click on Save button.
+	 */
+
+	//@Test
+	public void testVerifyDDL1DropdownFieldBlankErrorMessageOnUserDefinedTab() throws Exception {
+
+		reportLog("login using a valid IsoMetrix username and password.");
+		HomePage homePage = loginPage.login("username", "password");
+
+		reportLog("Go to All Control page");
+		AllControlPage allControlPage = homePage.navigateToControlPage();
+
+		reportLog("Verify All Control page");
+		allControlPage.verifyAllControlPage();
+
+		reportLog("Click on Add button on right side of Control page");
+		ControlsTabPage controlsTabPage = allControlPage.ClickOnAddButton();
+
+		reportLog("Verify Control tab is selected on Control page");
+		controlsTabPage.verifyControlsTab();
+
+		reportLog("Enter the all mandatory fileds on Control");
+		controlsTabPage.enterAllMandatoryField();
+
+		reportLog("Click on Save button on right side of Control page");
+		UserDefinedTabPage userDefinedTabPage = controlsTabPage.clickOnSaveButton();
+
+		reportLog("Verify save the record and navigated to User Defined tab");
+		userDefinedTabPage.verifyUserDefinedTab();
+
+		reportLog("Enter the all mandatory fileds on User defined tab");
+		userDefinedTabPage.verifyDDL1FieldBlankOnUserDefinedTab();
+
+	}
+	
+	@Test
+	public void testRecordSavedOnUserDefinedPage() throws Exception {
+
+		reportLog("login using a valid IsoMetrix username and password.");
+		HomePage homePage = loginPage.login("username", "password");
+
+		reportLog("Go to All Control page");
+		AllControlPage allControlPage = homePage.navigateToControlPage();
+
+		reportLog("Verify All Control page");
+		allControlPage.verifyAllControlPage();
+
+		reportLog("Click on Add button on right side of Control page");
+		ControlsTabPage controlsTabPage = allControlPage.ClickOnAddButton();
+
+		reportLog("Verify Control tab is selected on Control page");
+		controlsTabPage.verifyControlsTab();
+
+		reportLog("Enter the all mandatory fileds on Control");
+		controlsTabPage.enterAllMandatoryField();
+
+		reportLog("Click on Save button on right side of Control page");
+		UserDefinedTabPage userDefinedTabPage = controlsTabPage.clickOnSaveButton();
+		
+		reportLog("Enter the all mandatory fileds on Control");
+		userDefinedTabPage.enterAllMandatoryFieldOnUserDefinedTab();
+		
+		reportLog("Click on Save button on right side of Control page");
+		userDefinedTabPage.clickOnSaveButton();
+		
+		reportLog("Verify record saved");
+		  userDefinedTabPage.verifyRecordSaved();
+
+	
+	}
+}

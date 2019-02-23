@@ -1,0 +1,54 @@
+package com.isometrix.testscript;
+
+import org.testng.annotations.Factory;
+import org.testng.annotations.Test;
+
+import com.isometrix.dataproviders.DataProviders;
+import com.isometrix.pages.AllControlPage;
+import com.isometrix.pages.ControlsTabPage;
+import com.isometrix.pages.HomePage;
+import com.isometrix.pages.MDSTabPage;
+import com.isometrix.pages.UserDefinedTabPage;
+import com.isometrix.selenium.framework.BaseTest;
+
+public class MDSTabScript extends BaseTest {
+
+	@Factory(dataProvider = "Config", dataProviderClass = DataProviders.class)
+	public MDSTabScript(String browser) {
+		super(browser);
+
+	}
+/*
+	"1. Launch the browser and visit the url.
+	2. Enter the valid credential.
+	3. Click on SIGN IN button.
+	4. Click on All Controls button.
+	5. Click on Add button right side of the screen.
+	6. Click on MDS tab.
+	7. Enter the value in all field of User define tab."
+*/	
+	@Test
+	public void testVerifyAllMandatoryFields() throws Exception {
+
+		reportLog("login using a valid IsoMetrix username and password.");
+		HomePage homePage = loginPage.login("username", "password");
+
+		reportLog("Go to All Control page");
+		AllControlPage allControlPage = homePage.navigateToControlPage();
+
+		reportLog("Verify All Control page");
+		allControlPage.verifyAllControlPage();
+
+		reportLog("Click on Add button on right side of Control page");
+		ControlsTabPage controlsTabPage = allControlPage.ClickOnAddButton();
+
+		reportLog("Click on MDS tab");
+		MDSTabPage mDSTabPage = allControlPage.navigateToMDSTab();
+		
+		reportLog("Verify MDS tab is selected on MDS page");
+		mDSTabPage.verifyMDSTabPage();
+
+	}
+
+	
+}

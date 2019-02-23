@@ -1,0 +1,81 @@
+package com.collections;
+
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class ArrayListExample {
+	public static void main(String args[])
+	{
+		  ArrayList<String> obj= new ArrayList<String>();
+		  obj.add("Ajeet");
+		  obj.add("Harry");
+		  obj.add("Chaitanya");
+		  obj.add("Steve");
+		  obj.add("Anuj");
+		  System.out.println("Currently the array list has following elements:"+obj);
+		  
+		  obj.add(0, "Rahul");
+		  obj.add(1, "Justin");
+
+		  System.out.println("Currently the array list has following elements:"+obj);
+		  
+		  /*Collection Sorting*/
+		  Collections.sort(obj);
+		  
+		  System.out.println("After collection sorting:"+obj);
+		  
+		  /*Sub Array List*/
+		  
+		  ArrayList <String> subArrayList = new ArrayList<String>(obj.subList(0, 4));
+		  
+		  System.out.println("Sub Array Lists:"+subArrayList);
+		  
+		  
+/*Sub List*/
+		  
+		  List<String> subList = obj.subList(1, 3);
+		  
+		  for(int i=0; i< subList.size(); i++)
+		  {
+		 		  
+		  System.out.println(subList.get(i));
+		  }
+		  
+		  /*Remove elements from array list like this*/
+		  obj.remove("Chaitanya");
+		  obj.remove("Harry");
+
+		  System.out.println("Current array list is:"+obj);
+
+		  /*Remove element from the given index*/
+		  obj.remove(1);
+		  obj.remove(2);
+		  obj.add(3, "sunil kumar");
+
+		  System.out.println("Current array list is:"+obj);
+		  obj.set(3, "Updated Value");
+		  
+		 int pos=obj.indexOf("Anuj");
+		 	 
+		 System.out.println("Position " +pos);
+		 
+		 String str= obj.get(2);
+		 System.out.println("Position " +str);
+		 
+		 int numberofitems = obj.size();
+		 System.out.println("Position " +numberofitems);
+		 
+		 boolean bol=obj.contains("Anuj");
+		 
+		  
+		  System.out.println("Current array list is:"+bol);
+		  obj.clear();
+		  
+		  System.out.println("Current array list is:"+obj);
+	   }
+
+		
+	}
+

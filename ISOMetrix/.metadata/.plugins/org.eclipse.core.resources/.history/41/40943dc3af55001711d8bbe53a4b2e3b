@@ -1,0 +1,23 @@
+package com.isometrix.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import com.isometrix.selenium.framework.BasePage;
+
+public class MDSTabPage extends BasePage {
+
+	public MDSTabPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	@FindBy(xpath = "//li[@class='active']/*[text()='MDS' and @class='title']")
+	private WebElement mdsTabPage;
+		
+	public void verifyMDSTabPage() {
+		verifyElementPresent(mdsTabPage);
+
+	}
+	
+	
+	}

@@ -1,0 +1,5 @@
+package com.imterfaces;
+
+public interface MyInterface {
+
+}

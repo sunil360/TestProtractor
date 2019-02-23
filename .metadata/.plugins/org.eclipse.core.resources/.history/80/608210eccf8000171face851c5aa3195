@@ -1,0 +1,27 @@
+package com.exceptionhandling;
+
+public class MultipleCatchBlock
+{
+	   public static void main(String args[]){
+		     try{
+		         int a[]=new int[7];
+		         //a[4]=30/0;
+		         System.out.println("First print statement in try block");
+		         
+		         for( int i=0; i>=8; i++)
+		         {
+		        	 System.out.println(a[i]);
+		         }
+		     }
+		     catch(ArithmeticException e){
+		        System.out.println("Warning: ArithmeticException");
+		     }
+		     catch(ArrayIndexOutOfBoundsException e){
+		        System.out.println("Warning: ArrayIndexOutOfBoundsException");
+		     }
+		     catch(Exception e){
+		        System.out.println("Warning: Some Other exception");
+		     }
+		   
+		  }
+		}

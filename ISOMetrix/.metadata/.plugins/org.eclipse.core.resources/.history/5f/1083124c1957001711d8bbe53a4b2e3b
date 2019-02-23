@@ -1,0 +1,103 @@
+package com.isometrix.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.isometrix.selenium.framework.BasePage;
+
+public class UserDefinedTabPage extends BasePage {
+
+	public UserDefinedTabPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	@FindBy(xpath = "//li[@class='active']/*[text()='User Defined' and @class='title']")
+	private WebElement userDefinedTab;
+	public void verifyUserDefinedTab() {
+		verifyElementPresent(userDefinedTab);
+
+	}
+	
+	
+	@FindBy(xpath = "//*[text()='Save' and @class='text']")
+	private WebElement saveButton;
+	public void clickOnSaveButton() {
+		clickOn(saveButton);
+
+	}
+	
+	@FindBy(xpath = "//*[@class='opentip']/div/div[2]")
+	private WebElement validationMessage;
+	
+	public void verifyDDL1FieldBlankOnUserDefinedTab() throws Exception {
+		clickOnSaveButton();
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+			
+	}
+
+	@FindBy(css = "#control_C639E7FD-0A9D-421B-9E39-112679B95164>div>div>ul>ul>li")
+	private List<WebElement> userDefinedCBL1DropDownList;
+
+	public void userDefined_CBL1(String[] list) {
+
+		for (int i = 0; i < list.length; i++) {
+			String name = list[i];
+			int j = 1;
+			for (WebElement element : userDefinedCBL1DropDownList) {
+				String value = driver.findElement(By.cssSelector(
+						"#control_C639E7FD-0A9D-421B-9E39-112679B95164>div>div>ul" + ">ul>li:nth-of-type(" + j + ")>a"))
+						.getText();
+				System.out.println(value);
+				if (name.equalsIgnoreCase(value.trim())) {
+					mouseClick(driver
+							.findElement(By.cssSelector("#control_C639E7FD-0A9D-421B-9E39-112679B95164>div>div>ul>"
+									+ "ul>li:nth-of-type(" + j + ")>a>i:nth-of-type(1)")));
+					break;
+				}
+				j++;
+			}
+		}
+	}
+
+	@FindBy(css = "#control_396E3F72-1F5E-413D-B2C8-F6C7BA34ECF4")
+	WebElement userDefined_DLL1_Dropdown;
+	@FindBy(css = "#divForms>div:nth-child(5)>ul>ul>li:nth-child(1)>a")
+	WebElement userDefined_DDL1_Search;
+
+	public void userDefined_DDL1(String text) {
+		clickOn(userDefined_DLL1_Dropdown);
+		sleep(2000);
+		try {
+			clickOn(userDefined_DDL1_Search);
+		} catch (StaleElementReferenceException ex) {
+			clickOn(userDefined_DDL1_Search);
+		}
+	}
+
+	public void verifyAllMandatoryFieldOnUserDefinedTab() throws Exception {
+		String userdefinedCBL1 = propertyReader.readApplicationData("userdefinedCBL1");
+		clickOnSaveButton();
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		userDefined_DDL1("Test 2");
+		clickOnSaveButton();
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		userDefined_CBL1(new String[] { userdefinedCBL1 });
+		clickOnSaveButton();
+		_waitForJStoLoad();
+		
+		
+	}
+	
+	public void enterAllMandatoryFieldOnUserDefinedTab() throws Exception {
+		userDefined_DDL1("Test 2");
+		String userdefinedCBL1 = propertyReader.readApplicationData("userdefinedCBL1");
+		userDefined_CBL1(new String[] { userdefinedCBL1 });
+		clickOnSaveButton();
+		_waitForJStoLoad();
+}
+}

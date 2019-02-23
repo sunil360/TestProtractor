@@ -1,0 +1,28 @@
+package com.imterfaces;
+
+interface TestInterface
+{
+   public void display();
+   public void show();
+}
+
+class InterfaceClass implements TestInterface
+{
+  public void display()
+  {
+      System.out.println("implementation of display");
+  }
+  public void show()
+  {
+      System.out.println("implementation of show");
+  }
+  
+  public static void main(String arg[])
+  {
+	  InterfaceClass obj = new InterfaceClass();
+      obj. display();
+      obj.show();
+  }
+}
+
+

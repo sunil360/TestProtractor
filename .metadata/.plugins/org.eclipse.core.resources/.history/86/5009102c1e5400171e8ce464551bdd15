@@ -1,0 +1,46 @@
+package com.testapp.testScript;
+
+import static org.testng.Assert.assertTrue;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import com.testapp.helper.Helper;
+
+public class TC_01 extends Helper {
+
+	Helper helper= new Helper();
+	
+	/*Open Application*/
+	@BeforeSuite
+	public void openApplication() throws InterruptedException{
+		String appName="https://securedrop-alpha.eventionlive.com";
+		helper.openUrl(appName);
+	}
+	
+	@Test(priority=1)
+	public void createDropUsingCheckDropItemTypeOnly() throws InterruptedException{
+		String userNametxt="//*[@id='inputUsername']";
+		String passwordtxt="//*[@id='inputPassword']";
+		String userName="D102";
+		String password="evention";
+		helper.sendValues(userNametxt, userName);
+		helper.sendValues(passwordtxt, password);		
+		String logOnbtn="//button[@class='btn btn-lg btn-primary btn-block evention-blue']";
+		helper.clickOn(logOnbtn);
+	    System.out.println(driver.getTitle());
+		System.out.println("Login Successfully");
+		
+		String dropItem="//ul[@class='nav navbar-nav']/li[1]";
+		helper.clickOn(dropItem);
+		String dropListItem="//ul[@class='nav navbar-nav']/li[1]/ul/li[1]/a";
+		helper.clickOn(dropListItem);
+		String dropTab="//a[@id='btnNewDrop']";
+		helper.clickOn(dropTab);
+		
+		String employeelist="//a[@id='btnNewDrop']";
+		Select dropdown = new Select(driver.findElement(By.id(employeelist)));	
+	}
+}

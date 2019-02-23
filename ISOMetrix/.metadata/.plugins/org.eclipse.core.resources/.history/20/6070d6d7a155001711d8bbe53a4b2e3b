@@ -1,0 +1,29 @@
+package com.isometrix.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.isometrix.selenium.framework.BasePage;
+
+public class MDSTabPage extends BasePage {
+
+	public MDSTabPage(WebDriver driver) {
+		super(driver);
+	}
+	
+	@FindBy(css = ".tabpanel_tab_content>div:nth-child(3)>ul>li:nth-child(3)>div:nth-child(1)")
+	private WebElement mdsTabPage;
+		
+	public void verifyMDSTabPage() {
+		verifyElementPresent(mdsTabPage);
+
+	}
+	
+	
+	}

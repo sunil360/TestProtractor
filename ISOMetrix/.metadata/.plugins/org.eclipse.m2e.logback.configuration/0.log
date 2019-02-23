@@ -1,0 +1,276 @@
+2017-06-20 12:03:21,046 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ISO-Metrix:ISO-Metrix:0.0.1-SNAPSHOT @ E:\ISOMetrix\ISO-Metrix\pom.xml.
+2017-06-20 12:03:23,175 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-06-20 12:03:23,229 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-06-20 12:03:23,264 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-06-20 12:03:34,634 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:03:34,639 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 12:03:34,645 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:03:34,677 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 12:23:53,127 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-06-20 12:23:53,182 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-06-20 12:23:53,189 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-06-20 12:23:54,041 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:23:54,042 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 12:23:54,044 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:23:54,047 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 12:26:55,564 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:26:55,565 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 12:26:55,567 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:26:55,568 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 12:30:21,363 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:30:21,366 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-06-20 12:32:14,755 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:32:14,755 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-06-20 12:33:10,793 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:33:10,794 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-06-20 12:34:05,609 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:34:05,610 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 12:34:05,612 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:34:05,662 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 12:34:30,148 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:34:30,148 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:36:57,074 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:36:57,074 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:37:46,321 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:37:46,321 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:40:07,235 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:40:07,238 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:42:11,086 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:42:11,086 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:43:03,390 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:43:03,390 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-06-20 12:43:14,901 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:43:14,902 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:43:59,671 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:43:59,671 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:46:57,214 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:46:57,214 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 12:46:57,216 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 12:46:57,223 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 12:47:51,981 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:47:51,981 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:53:07,727 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:53:07,728 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 12:56:23,860 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 12:56:23,860 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 13:02:05,899 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 13:02:05,900 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 13:07:21,366 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 13:07:21,367 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 13:08:23,517 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 13:08:23,520 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 13:08:23,522 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 13:08:23,525 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 13:09:23,457 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 13:09:23,458 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-20 13:10:37,654 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 13:10:37,655 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 13:10:37,656 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 13:10:37,657 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 14:32:49,282 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 14:32:49,289 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 14:32:49,292 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 14:32:49,299 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 14:34:24,735 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 14:34:24,735 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 14:34:24,739 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 14:34:24,740 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 14:36:49,382 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 14:36:49,382 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 14:36:49,384 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 14:36:49,384 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 14:38:22,208 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-06-20 14:38:39,786 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 14:38:39,786 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-06-20 14:43:48,070 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-06-20 14:43:57,210 [Worker-86] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-20 14:43:57,211 [Worker-86] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-06-20 15:33:16,071 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:33:16,073 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 15:33:16,076 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:33:16,077 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 15:39:41,293 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:39:41,294 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 15:39:41,295 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:39:41,296 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 15:44:42,554 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:44:42,556 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 15:44:42,562 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:44:42,564 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 15:48:55,020 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:48:55,023 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 15:48:55,027 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:48:55,028 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 16:01:10,315 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:01:10,316 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:01:10,318 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:01:10,319 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 16:05:57,549 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:05:57,549 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:05:57,552 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:05:57,553 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 16:24:17,671 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:24:17,672 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:24:17,674 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:24:17,679 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 16:26:25,808 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8-sources.jar
+2017-06-20 16:26:26,829 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8-sources.jar
+2017-06-20 16:26:27,385 [Worker-126] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.1.8
+2017-06-20 16:26:29,879 [Worker-125] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.1.8
+2017-06-20 16:26:34,894 [Worker-126] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.1.8
+2017-06-20 16:26:39,624 [Worker-109] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.1.8
+2017-06-20 16:26:47,539 [Worker-116] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.1.8
+2017-06-20 16:27:38,770 [Worker-126] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.1.8
+2017-06-20 16:28:11,281 [Worker-127] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.1.8
+2017-06-20 16:32:53,840 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:32:53,841 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:32:53,842 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:32:53,843 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 16:45:50,861 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:45:50,904 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:45:50,905 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:45:50,909 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 16:47:41,656 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:41,657 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:47:41,659 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:41,664 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 16:49:26,743 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:49:26,743 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:49:26,745 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:49:26,759 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 16:51:33,791 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:33,791 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:51:33,793 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:33,796 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 16:53:46,352 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:53:46,365 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 16:53:46,367 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:53:46,373 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 18:28:47,528 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 18:28:47,529 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 18:28:47,531 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 18:28:47,536 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 18:34:01,229 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 18:34:01,230 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 18:34:01,231 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 18:34:01,237 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-20 18:53:53,554 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 18:53:53,556 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-20 18:53:53,558 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 18:53:53,564 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-21 12:39:26,531 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 12:39:26,557 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-21 12:39:26,558 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 12:39:26,566 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-22 12:01:46,869 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 12:01:46,959 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-22 12:01:46,960 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 12:01:46,964 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-22 13:08:42,975 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 13:08:42,976 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-22 13:08:42,977 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 13:08:42,983 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-22 17:07:45,832 [Worker-237] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-22 17:07:45,857 [Worker-237] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-06-22 17:08:16,816 [Worker-237] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-22 17:08:16,816 [Worker-237] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-06-22 17:09:15,055 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 17:09:15,056 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-22 17:09:15,057 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 17:09:15,061 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 11:16:19,455 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 11:16:19,503 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 11:16:19,505 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 11:16:19,520 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 11:18:38,076 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 11:18:38,076 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 11:18:38,079 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 11:18:38,083 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 11:59:01,400 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 11:59:01,401 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 11:59:01,402 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 11:59:01,407 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 12:04:59,633 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:04:59,633 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 12:04:59,635 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:04:59,638 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 12:17:01,694 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:17:01,695 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 12:17:01,697 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:17:01,702 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 12:25:08,241 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:25:08,242 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 12:25:08,244 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:25:08,249 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 12:27:11,224 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:27:11,224 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 12:27:11,225 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:27:11,228 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 12:31:06,742 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:31:06,743 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 12:31:06,744 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 12:31:06,750 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 13:07:13,731 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:07:13,731 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 13:07:13,732 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:07:13,735 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 13:24:42,853 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:24:42,861 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 13:24:42,863 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:24:42,869 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 13:36:50,349 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:36:50,350 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 13:36:50,351 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:36:50,355 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 13:39:53,035 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:39:53,036 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 13:39:53,038 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:39:53,042 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 13:47:19,160 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:47:19,160 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 13:47:19,161 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 13:47:19,166 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 14:19:48,811 [Worker-255] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-23 14:19:48,811 [Worker-255] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-06-23 14:20:09,013 [Worker-243] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\ISOMetrix\ISO-Metrix
+2017-06-23 14:20:09,014 [Worker-243] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-06-23 14:39:01,742 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 14:39:01,754 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 14:39:01,829 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 14:39:01,834 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 14:49:59,472 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 14:49:59,473 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 14:49:59,474 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 14:49:59,480 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 14:58:57,226 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 14:58:57,226 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 14:58:57,229 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 14:58:57,232 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 15:08:38,164 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:08:38,165 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 15:08:38,167 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:08:38,181 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 15:14:43,418 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:14:43,418 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 15:14:43,420 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:14:43,425 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 15:22:31,591 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:22:31,591 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 15:22:31,593 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:22:31,597 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 15:25:39,280 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:25:39,280 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 15:25:39,281 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:25:39,287 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 15:29:06,872 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:29:06,872 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 15:29:06,887 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:29:06,891 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 15:41:36,205 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:41:36,220 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 15:41:36,221 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 15:41:36,227 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-06-23 16:11:43,256 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 16:11:43,266 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\ISOMetrix\ISO-Metrix\src\main\resources
+2017-06-23 16:11:43,267 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-23 16:11:43,271 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources

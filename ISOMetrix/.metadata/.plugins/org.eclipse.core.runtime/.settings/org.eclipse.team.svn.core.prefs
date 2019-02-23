@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/a029d1f48155001711d8bbe53a4b2e3b=a029d1f48155001711d8bbe53a4b2e3b;https\://192.168.3.36\:8443/svn/ISO-Metrix/ISO-Matrix;https\://192.168.3.36\:8443/svn/ISO-Metrix/ISO-Matrix;branches;tags;trunk;true;041c11c8-7c43-ea45-9852-daa5b70fb40c;https\://192.168.3.36\:8443/svn/ISO-Metrix;;false;;;0

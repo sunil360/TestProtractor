@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+
+	<listeners>
+		<listener class-name="com.isometrix.report.CustomReport" />
+		<!-- <listener class-name="com.isometrix.report.ExtentReporterNG" /> -->
+	</listeners>
+
+	<test name="ISOMetrixTestCase" preserve-order="true" verbose="2">
+		<classes>
+
+			<class name="com.isometrix.testscript.LoginScript" />
+			<class name="com.isometrix.testscript.AllControlScript" />
+			<class name="com.isometrix.testscript.ControlsTabScript" />
+			<class name="com.isometrix.testscript.UserDefinedTabScript" />
+
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,14 @@
+package Encapsulation;
+
+public class EncapsulationExample {
+	
+	int a=10;
+	int b=20;
+	int c=30;
+	
+	public void Display()
+	{
+		System.out.println(a);
+	}
+
+}

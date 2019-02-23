@@ -1,0 +1,95 @@
+package com.isometrix.pages;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.isometrix.selenium.framework.BasePage;
+
+public class ControlsTabPage extends BasePage {
+
+	public ControlsTabPage(WebDriver driver) {
+		super(driver);
+	}
+
+	@FindBy(xpath = "//li[@class='active']/*[text()='Controls' and @class='title']")
+	private WebElement controlsTab;
+
+	public void verifyControlsTab() {
+		verifyElementPresent(controlsTab);
+
+	}
+
+	@FindBy(css = "#control_8C30458C-A032-451B-A91F-4B8D6AA2CA08>div>div>input")
+	private WebElement textbox1;
+	@FindBy(css = "#control_DC21E77A-F84A-48F8-96DF-56550D165C3D>div>div>textarea")
+	private WebElement textarea1;
+	@FindBy(css = "#control_8C4E1908-02BA-4338-8766-5465982E7E6E>div>div>input")
+	private WebElement numeric_1;
+	@FindBy(css = "#control_1EF5BB30-2ADF-4C6C-83D3-58C8FCEACC43>div>span>span>input")
+	private WebElement calendar;
+	@FindBy(css = "#control_86098D77-1286-4D51-A374-E02929DAC7E9>div>input")
+	private WebElement time;
+	@FindBy(css = "#control_EEA86DA1-39FD-4230-B99F-82069521B122")
+	private WebElement button1;
+	@FindBy(xpath = "//*[@class='opentip']/div/div[2]")
+	private WebElement validationMessage;
+
+	public UserDefinedTabPage verifyAllMandatoryField() throws Exception {
+		String textbox = propertyReader.readApplicationData("controlTextbox");
+		String textarea = propertyReader.readApplicationData("controlTextArea");
+		String numeric1 = propertyReader.readApplicationData("controlNumeric1");
+		String date1 = propertyReader.readApplicationData("controlDate1");
+		String time1 = propertyReader.readApplicationData("controlTime1");
+		clickOn(button1);
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		inputText(textbox1, textbox);
+		clickOn(button1);
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		inputText(textarea1, textarea);
+		clickOn(button1);
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		inputText(numeric_1, numeric1);
+		clickOn(button1);
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		DateFormat dateFormate = new SimpleDateFormat("yyyy-mm-dd");
+		Date date11 = dateFormate.parse(date1);
+		inputText(calendar, dateFormate.format(date11).toString());
+		clickOn(button1);
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		inputText(time, time1);
+		clickOn(button1);
+		return PageFactory.initElements(getDriver(),UserDefinedTabPage.class);
+	}
+
+	public void enterAllMandatoryField() throws Exception {
+		String textbox = propertyReader.readApplicationData("controlTextbox");
+		String textarea = propertyReader.readApplicationData("controlTextArea");
+		String numeric1 = propertyReader.readApplicationData("controlNumeric1");
+		String date1 = propertyReader.readApplicationData("controlDate1");
+		String time1 = propertyReader.readApplicationData("controlTime1");
+		clickOn(button1);
+		verifyErrorMessage(validationMessage, "Validation: Please enter value");
+		inputText(textbox1, textbox);
+		inputText(textarea1, textarea);
+		inputText(numeric_1, numeric1);
+		DateFormat dateFormate = new SimpleDateFormat("yyyy-mm-dd");
+		Date date11 = dateFormate.parse(date1);
+		inputText(calendar, dateFormate.format(date11).toString());
+		inputText(time, time1);
+
+	}
+
+	@FindBy(xpath = "//*[text()='Save' and @class='text']")
+	private WebElement saveButton;
+
+	public UserDefinedTabPage clickOnSaveButton() {
+		clickOn(saveButton);
+		return PageFactory.initElements(getDriver(), UserDefinedTabPage.class);
+	}
+}

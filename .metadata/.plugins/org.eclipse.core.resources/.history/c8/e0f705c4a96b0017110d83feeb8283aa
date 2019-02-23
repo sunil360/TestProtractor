@@ -1,0 +1,33 @@
+package com.collections;
+
+import java.util.Vector;
+
+public class VectorExample {
+
+	public static void main(String[] args) {
+		
+Vector vecobj= new Vector();
+
+/* Insert the items*/
+
+vecobj.add("Sunil");
+vecobj.add("Kumar");
+vecobj.add("Test 2");
+vecobj.add("Test 3");
+
+System.out.println("Size is: "+vecobj.size());
+System.out.println("Default capacity increment is: "+vecobj.capacity());
+
+System.out.println("Vector list is: " +vecobj);
+
+/* The the values at specific location*/
+
+vecobj.set(0, "test 0");
+
+
+System.out.println("Vector list is: " +vecobj);
+
+
+	}
+
+}
